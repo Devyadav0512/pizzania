@@ -211,12 +211,6 @@
   }
 }
 
-@keyframes noty_modal_out {
-  100% {
-    opacity: 0;
-  }
-}
-
 @-webkit-keyframes noty_anim_in {
   100% {
     transform: translate(0);
@@ -303,6 +297,10 @@
   background-color: #AFC765;
   border-bottom: 1px solid #A0B55C;
   color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
